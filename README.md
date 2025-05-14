@@ -1,2 +1,2 @@
 # Final-Project
-A project used to demonstrate team collaboration
+A project used to demonstrating team collaboration
