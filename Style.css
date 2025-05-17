@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
+  background-size: cover;                
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;   
+}
+
+nav {
+  background-color: navy;
+  padding: 0.75em 1.5em;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5em;
+}
+
+.nav-links a:not(:last-child)::after {
+  content: "|";
+  margin-left: 1em;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background-color: black; 
+  color: white;
+  padding: 2em;           
+}
+
+p {
+  padding: 20px;
+}
+
+h1{
+  padding: 20px;
+}
